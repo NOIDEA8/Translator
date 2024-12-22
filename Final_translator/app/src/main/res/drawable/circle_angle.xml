@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- res/drawable/rounded_rectangle.xml -->
+    <!-- 填充颜色 -->
+        <solid android:color="#FFFFFF"/>
+
+        <!-- 设置圆角 -->
+        <corners android:radius="60dp"/> <!-- 设置四个角的圆角半径 -->
+
+        <!-- 如果你想要设置不同角的圆角半径，可以使用以下属性 -->
+        <!-- android:topLeftRadius="10dp" -->
+        <!-- android:topRightRadius="10dp" -->
+        <!-- android:bottomLeftRadius="10dp" -->
+        <!-- android:bottomRightRadius="10dp" -->
+
+        <!-- 边框（可选） -->
+        <stroke android:width="1dp" android:color="#000000"/>
+</shape>

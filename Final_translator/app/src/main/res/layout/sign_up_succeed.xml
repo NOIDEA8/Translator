@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F6EC"
+    android:padding="15dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        >
+        <ImageView
+            android:id="@+id/sign_up_succeed"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/succeed"
+            android:layout_gravity="center"
+            android:background="#E2F6EC"
+            android:layout_marginBottom="24dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册成功!"
+            android:textSize="20dp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tips_for_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你的账号为："
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:textIsSelectable="true"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/accountlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                >
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:backgroundTint="#00BCD4">
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
