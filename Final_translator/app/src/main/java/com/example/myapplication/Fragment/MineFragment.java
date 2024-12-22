@@ -151,7 +151,7 @@ public class MineFragment extends Fragment implements View.OnClickListener {
                 changeName();
                 break;
             case R.id.head:
-                openGallery();
+               /// openGallery();
                 break;
             case R.id.history_search:
             case R.id.lshow_history_search:
